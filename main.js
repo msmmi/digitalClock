@@ -8,9 +8,7 @@ function getCurrentTime() {
   const formatedseconds = seconds >= 10 ? seconds : '0' + seconds;
   return `Hours:Minutes:second: ${hours}:${formatedMinutes}:${formatedseconds}`;
 }
-// setInterval(() => {
-//   time = getCurrentTime();
-// }, 1000);
+
 const selectH1 = document.querySelector('h1');
 setInterval(() => {
   selectH1.textContent = getCurrentTime();
