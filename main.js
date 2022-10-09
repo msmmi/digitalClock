@@ -6,7 +6,7 @@ function getCurrentTime() {
   const formatedMinutes = minutes >= 10 ? minutes : '0' + minutes;
   const seconds = date.getSeconds();
   const formatedseconds = seconds >= 10 ? seconds : '0' + seconds;
-  return `${hours}:${formatedMinutes}:${formatedseconds}`;
+  return `Hours:Minutes:second: ${hours}:${formatedMinutes}:${formatedseconds}`;
 }
 console.log(getCurrentTime());
 let time = '';
