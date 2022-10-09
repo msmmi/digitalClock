@@ -8,8 +8,6 @@ function getCurrentTime() {
   const formatedseconds = seconds >= 10 ? seconds : '0' + seconds;
   return `Hours:Minutes:second: ${hours}:${formatedMinutes}:${formatedseconds}`;
 }
-console.log(getCurrentTime());
-let time = '';
 // setInterval(() => {
 //   time = getCurrentTime();
 // }, 1000);
